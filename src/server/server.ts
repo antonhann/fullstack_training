@@ -19,7 +19,7 @@ server.set("view engine", "ejs");
 //intialize route
 server.use("/", (req, res) => {
     res.render("index", {
-        content: "EJS is pretty cool!"
+        initialContent: "Loading..."
     });
 });
 //express listen method to start the server
